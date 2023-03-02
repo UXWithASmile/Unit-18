@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI/UX</title>
+    <link href="style.css" type="text/stylesheet"/>
+    <style>
+        h1{
+            text-align: center;
+        }
+        .flexContainer{
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .child{
+            padding: 10px;
+            margin: 10;
+            width: 33%;
+            height: 33%;
+            display: flex;
+            flex-direction: column;
+        }
+        .child img{
+            position: relative !important;
+            left: 50%;
+        }
+        .child h3{
+            position: relative ;
+            left: 50%;
+            transform: translateX(-15%);
+        }
+
+    </style>
+</head>
+<body>
+    <!--  My UX Skills section coded using CSS flex -->
+<section class="mySkills">
+    <h1>My UX Skiils</h1>
+    <div class="flexContainer">
+        <div class="child">
+            <img src="LOGO.jpg"  alt="button" style="width:10% ; height:15%">
+            <h3>WEB DESIGN</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia esse eius nihil eligendi quos dolor, rerum ea. Nemo animi, in dignissimos placeat esse ad harum corrupti ipsa, reiciendis a voluptatem. </p>
+        </div>
+        <div class="child">
+            <img src="ICO.jpg"  alt="button" style="width:10% ; height:15%">
+            <h3>WEB PROTOYPES</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia esse eius nihil eligendi quos dolor, rerum ea. Nemo animi, in dignissimos placeat esse ad harum corrupti ipsa, reiciendis a voluptatem. </p>
+        </div>
+        <div class="child">
+            <img src="B1.png"  alt="button" style="width:10% ; height:15%">
+            <h3>WEB ANALYST</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia esse eius nihil eligendi quos dolor, rerum ea. Nemo animi, in dignissimos placeat esse ad harum corrupti ipsa, reiciendis a voluptatem. </p>
+        </div>
+    </div>
+
+</section>
+
+
+</body>
+</html>

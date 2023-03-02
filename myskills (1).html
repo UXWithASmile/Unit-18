@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myWork UI/UX</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        .workGrid{
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+        .child:nth-child(even){
+            margin-bottom: 20px;
+            grid-area: 2 / 1;
+            width: 33%;
+        }
+        .child:nth-child(odd){
+            grid-area: 3 / 1;
+            width: 33%;
+        }
+        h3{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <section class="myWork">
+        <h1>My work</h1>
+        <div class="workGrid">
+            <div class="child">
+                <img src="ICONO.jpg" alt="Iconography"  style="width:100% ; height:auto" >
+            </div>
+            <div class="child">
+                <h4>My Skills</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas iste eligendi eaque ad repudiandae in, itaque dicta esse maxime. Alias perspiciatis fuga laborum vero soluta cum quasi voluptatum itaque recusandae?</p>
+                <input type="button" value="viewButton">
+            </div>            
+            <div class="child">
+                <img src="ICO.jpg" alt="Icon"  style="width:100% ; height:auto">
+            </div>
+            <div class="child">
+                <h4>My Skills</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas iste eligendi eaque ad repudiandae in, itaque dicta esse maxime. Alias perspiciatis fuga laborum vero soluta cum quasi voluptatum itaque recusandae?</p>
+                <input type="button" value="viewButton">
+            </div>
+        </div>
+
+        <h3>View all the Projects</h3>
+    </section>
+    
+</body>
+</html>
