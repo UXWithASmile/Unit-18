@@ -5,52 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>myWork UI/UX</title>
-    <style>
-        h1{
-            text-align: center;
-        }
-        .workGrid{
-            display: grid;
-            grid-template-columns: auto auto;
-        }
-        .child:nth-child(even){
-            margin-bottom: 20px;
-            grid-area: 2 / 1;
-            width: 33%;
-        }
-        .child:nth-child(odd){
-            grid-area: 3 / 1;
-            width: 33%;
-        }
-        h3{
-            text-align: center;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
 </head>
 <body>
     <section class="myWork">
-        <h1>My work</h1>
+        <h1>My Work</h1>
         <div class="workGrid">
-            <div class="child">
-                <img src="ICONO.jpg" alt="Iconography"  style="width:100% ; height:auto" >
+          <div class="project1">
+            <img src="image1.jpg" alt="Project 1">
+            <div>
+                <h4>Online Store Website Redesign</h4>
+                <p>This project involved redesigning an existing online store website to improve its visual appeal, usability, and performance. We conducted extensive user research to identify pain points and opportunities for improvement, and implemented a modern, responsive design that makes it easy for users to find and purchase products. We also optimized the site's code and server configuration to improve page load times and reduce bounce rates. The redesigned site saw a 30% increase in conversions and a 20% increase in overall traffic</p>
+                <button>View Project</button>
             </div>
-            <div class="child">
-                <h4>My Skills</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas iste eligendi eaque ad repudiandae in, itaque dicta esse maxime. Alias perspiciatis fuga laborum vero soluta cum quasi voluptatum itaque recusandae?</p>
-                <input type="button" value="viewButton">
-            </div>            
-            <div class="child">
-                <img src="ICO.jpg" alt="Icon"  style="width:100% ; height:auto">
+          </div>
+          <div class="project2">
+            <img src="image2.jpg" alt="Project 2">
+            <div>
+                <h4>Mobile App for Fitness Tracking</h4>
+                <p> This project involved creating a mobile app for tracking fitness activities such as running, walking, and weightlifting. The app allows users to set goals, track progress, and receive personalized recommendations for workouts and nutrition based on their activity data. We designed the app to be easy to use and visually appealing, with a clean and intuitive interface that guides users through the various features. We also integrated the app with popular fitness tracking devices and services such as Fitbit and MyFitnessPal. The app has received positive feedback from users and has been downloaded over 50,000 times since its launch.</p>
+                <button>View Project</button>
             </div>
-            <div class="child">
-                <h4>My Skills</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas iste eligendi eaque ad repudiandae in, itaque dicta esse maxime. Alias perspiciatis fuga laborum vero soluta cum quasi voluptatum itaque recusandae?</p>
-                <input type="button" value="viewButton">
-            </div>
+          </div>
         </div>
-
-        <h3>View all the Projects</h3>
-    </section>
+        <h3>View all projects.</h3>
+      </section>
     
 </body>
 </html>

@@ -1,0 +1,54 @@
+.myWork {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 50px;
+  }
+  
+  .workGrid {
+    display: grid;
+    grid-template-areas:
+      "project1 project2"
+      "project3 project4";
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .project1 {
+    grid-area: project1;
+  }
+  
+  .project2 {
+    grid-area: project2;
+  }
+  .workGrid img {
+    width: 100%;
+  }
+  
+  .workGrid div {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .workGrid h4 {
+    margin-top: 0;
+  }
+  
+  .workGrid p {
+    margin-bottom: 0;
+  }
+  
+  .workGrid button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
